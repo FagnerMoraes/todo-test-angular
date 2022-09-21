@@ -16,6 +16,17 @@ export class AppComponent {
     this.Todos.push(new Todo(3,"dar comida pros gatinhos",true));
   }
 
+  remove(todo: Todo){
+
+  }
+
+  markAsDone(todo: Todo){
+
+  }
+
+  markAsUndone(todo: Todo){
+
+  }
 
 
   }
